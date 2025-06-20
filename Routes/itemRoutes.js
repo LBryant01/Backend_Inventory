@@ -6,7 +6,7 @@ const {
   createItem,
   updateItem,
   deleteItem,
-} = require('../controllers/itemController');
+} = require('../Controllers/itemController');
 const { protect } = require('../Middleware/authMiddleware'); 
 
 const router = express.Router();
