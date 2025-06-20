@@ -1,4 +1,3 @@
-// middleware/protect.js
 const jwt = require('jsonwebtoken');
 const User = require('../Models/User'); 
 
