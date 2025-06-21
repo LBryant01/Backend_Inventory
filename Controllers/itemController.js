@@ -63,7 +63,7 @@ exports.updateItem = async (req, res) => {
       return res.status(403).json({ message: "You're not the user of this item" });
     }
 
-    // Apply any provided updates
+   
     item.itemName    = req.body.itemName    || item.itemName;
     item.description = req.body.description || item.description;
     item.quantity    = req.body.quantity    ?? item.quantity; 
