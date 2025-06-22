@@ -18,7 +18,7 @@ This is the backend for an inventory management application. It allows users to 
 ## Technologies
 
 - Node.js
-- Express.js
+-  Express.js
 - MongoDB + Mongoose
 - JWT (JSON Web Token)
 - bcryptjs
@@ -33,7 +33,7 @@ This is the backend for an inventory management application. It allows users to 
 
 - Node.js
 - MongoDB (Atlas or local)
-- 
+  
 ### Enviroment Variables
 - PORT=5000
 - No_No= Your MongoDB URI
