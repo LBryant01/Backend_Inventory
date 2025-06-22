@@ -36,8 +36,8 @@ This is the backend for an inventory management application. It allows users to 
 - 
 ### Enviroment Variables
 - PORT=5000
-- No_No=<Your MongoDB URI>
-- SUPRA_SECURE=<Your JWT Signature>
+- No_No= Your MongoDB URI
+- SUPRA_SECURE= Your JWT Signature
 - CLIENT_URL=http://localhost:3000
 
 ### Installation
