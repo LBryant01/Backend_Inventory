@@ -33,6 +33,12 @@ This is the backend for an inventory management application. It allows users to 
 
 - Node.js
 - MongoDB (Atlas or local)
+- 
+### Enviroment Variables
+- PORT=5000
+- No_No=<Your MongoDB URI>
+- SUPRA_SECURE=<Your JWT Signature>
+- CLIENT_URL=http://localhost:3000
 
 ### Installation
 
@@ -40,12 +46,9 @@ This is the backend for an inventory management application. It allows users to 
 git clone https://github.com/LBryant01/Backend_Inventory.git
 cd Backend_Inventory
 npm install
-
-### Enviroment Variables
-- PORT=5000
-- No_No=<Your MongoDB URI>
-- SUPRA_SECURE=<Your JWT Signature>
-- CLIENT_URL=http://localhost:3000
+```
 
 ### Running Server
+```bash
 - npm start
+```bash
